@@ -1,156 +1,144 @@
-#font {
-  font-family: 'Poppins', sans-serif;
+#font{
+  font-family: 'Work Sans', sans-serif;
 }
-.background {
-  margin: 0px;
-  background-image: src "immagini/novara-panorama.jpeg";
-  background-repeat: no-repeat;
+
+.sfondo{
+   margin: 0px;
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/24/51/OwQlrL.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: 100%;
 }
+
+#bandiere{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.bandiere {
+  width: 80px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
 #headline{
-  box-shadow: 0px 5px 15px black;
-  opacity: 0, 3;
+  box-shadow: 0px 20px 50px black;
+  opacity: 0, ;
   position: fixed-top;
   background-color: black;
   width: 100%;
   height: 100px;
   margin: 0px;
+  border-bottom: 3px solid red
 }
-#bandiere{
-  margin-left: 50px;
-  display: inline-block;
-}
-.bandiere {
-  width: 60px;
-  height: 40px;
-  margin-left: 10px;
-  margin-top:30px;
-}
-#intestazione{
-  align-self: center;
-  margin-left: 500px;
-  position: absolute;
-  display: inline-block;
-}
-#logo{
-  width: auto;
-  height: 45px;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-#sottotitolo {
-  color: white;
-  margin-top: 9px;
-  color: white;
+
+#logoACME{
+  height:90px;
   text-align: center;
+  border: 4px solid yellow;
 }
-#cookie {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  width: 100px;
-  text-align: center;
-  border-radius: 30px;
+
+.riquadro{
+  border: 0px solid; 
+  background-color:black;
+  color:white; 
+  padding: 20px;
+  border-radius: 15px;
+  margin: 60px;
+  text-align:center;
+  opacity: 80%;
 }
-#spazio{
-  padding: 180px 0px 0px 0px;
-}
-#box1{
-  min-width: 1001px;
-  max-width: 1200px;
-  margin: auto;
-  background-color: none;
-  text-align: center;
-  margin-top: 0px;
-  background-color: rgba(0, 0, 0, 0.60);
-  border-radius: 20px;
-}
-.casella{
-  display: inline-block;
-  padding: 40px;
-  color: white;
-}
-h3.sticky {
-  position: sticky;
-  top: 20;
-  padding: 5px;
-}
-.box{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 1001px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-}
-p1{
-  letter-spacing: 5px; 
-  padding-top: -70px;
-}
-h2{
-  border-left: 10px solid hsl(0, 130%, 68%);
-  padding-left: 20px;
-  letter-spacing: 1px;
-}
-.elemento1{
-  display: inline-block;
-  width: 50%;
-  margin-top: -70px;
-}
-.elemento2 {
-  margin:auto;
-  display: inline-block;
-  }
+
 h1{
-  color:#FFFFFF;
-  text-align: center;
-  margin-top: 50px;
-;
-}
-table{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  width: 1200px;
-  min-width: 1001px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto; 
-  border-radius: 20px;
-}
-h3{
+  font-size: 20px;
   text-align: center;
 }
-td{
-  width: 500px !important;
-  min-width: 200px;
-  max-width: 500px;
-  padding: 10px;
-  margin: 0px 10px;
+
+p{
+  font-size: 15;
+  text-align: center;  
 }
-footer{
-  background-color: black;
-  text-align: center;
-  color: white;
-  width: 100%;
-  margin-top: 50px;
+
+#map {
+  height: 200px; 
+  width: auto;
+  max-width: auto;
 }
+
 .fot{
   display: inline-block;
   margin: 5px 20px 5px 120px;
+  color:white;
+  text-align:center;
 }
-p3{
-  max-width: 500px;
-  font-size: 12px;
+
+.boxnero{
+  background-color: black;
+  border-top: 2px solid red;
 }
+
+#bottone {
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  width: 200px;
+  padding: 20px;
+  display:none;
+}
+#chiude{
+  font-size: 15px;
+  margin-left: 160px;
+  padding: 0px;
+}
+
 .top {
   color: white;
-  background-color: none;
+  background-color: black;
+  padding: 0px 3px 0px 3px ;
+  border-radius: 100px;
   position: fixed;
-  bottom: 20px;
-  right: 40px;
+  bottom: 40px;
+  right: 10px;
   text-align: center;
+  
 }
+
 #freccia.up{
   text-shadow: 0px 0px 10px black;
+}
+
+.pittura{
+border: 2px solid red; border-radius: 15px;
+}
+
+.grafica{
+border: 2px solid blue; border-radius: 15px;
+}
+
+.scenografia{
+border: 2px solid orange; border-radius: 15px;
+}
+
+.impresa{
+border: 2px solid yellow; border-radius: 15px;
+}
+
+.tecnologie{
+border: 2px solid magenta; border-radius: 15px;
+}
+
+.comunicazione{
+border: 2px solid #A76CFB; border-radius: 15px; 
+}
+
+footer{
+  font-size: 11px;
 }
