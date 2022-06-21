@@ -84,6 +84,7 @@ p{
   left: 10px;
   width: 100px;
   border-radius: 30px;
+  cursor: pointer;
 }
 #cookie{
   color: white;
@@ -93,11 +94,13 @@ p{
   margin-left: 50px;
   padding: 20px;
   display:none;
+  cursor: pointer;
 }
 #chiude{
   font-size: 15px;
   margin-left: 160px;
   padding: 0px;
+  cursor: pointer;
 }
 
 .top {
@@ -109,6 +112,7 @@ p{
   bottom: 40px;
   right: 10px;
   text-align: center;
+  cursor: pointer;
   
 }
 
