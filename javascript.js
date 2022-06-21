@@ -1,4 +1,4 @@
-//freccina top
+//freccia up
 function scrollToTop() {
            window.scrollTo(0, 0);
         }
