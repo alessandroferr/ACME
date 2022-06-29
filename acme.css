@@ -7,12 +7,12 @@
   background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/24/51/OwQlrL.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 #bandiere{
   margin-left: 50px;
   display: inline-block;
+  z-index: 50;
 }
 
 .bandiere {
@@ -25,18 +25,18 @@
 #headline{
   box-shadow: 0px 20px 50px black;
   opacity: 0, ;
-  position: fixed-top;
+  position: fixed;
   background-color: black;
   width: 100%;
   height: 100px;
   margin: 0px;
-  border-bottom: 3px solid red
+  border-bottom: 3px solid red;
+  z-index: 40;
 }
 
 #logoACME{
-  height:90px;
+  height: 90px;
   text-align: center;
-  border: 4px solid yellow;
 }
 
 .riquadro{
@@ -61,16 +61,16 @@ p{
 }
 
 #map {
-  height: 200px; 
-  width: auto;
+  height: 220px; 
+  width: 40%;
   max-width: auto;
 }
 
 .fot{
   display: inline-block;
-  margin: 5px 20px 5px 120px;
-  color:white;
-  text-align:center;
+  margin: auto;
+  color: white;
+  text-align: center;
 }
 
 .boxnero{
@@ -85,6 +85,7 @@ p{
   width: 100px;
   border-radius: 30px;
   cursor: pointer;
+  z-index: 60;
 }
 
 #cookie{
@@ -114,6 +115,7 @@ p{
   right: 10px;
   text-align: center;
   cursor: pointer;
+  z-index: 60;
   
 }
 
