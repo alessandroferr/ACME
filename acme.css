@@ -3,7 +3,7 @@
 }
 
 .sfondo{
-   margin: 0px;
+  margin: 0px;
   background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/24/51/OwQlrL.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -40,13 +40,12 @@
 }
 
 .riquadro{
-  border: 0px solid; 
-  background-color:black;
-  color:white; 
+  background-color: black;
+  color: white; 
   padding: 20px;
   border-radius: 15px;
   margin: 60px;
-  text-align:center;
+  text-align: center;
   opacity: 80%;
 }
 
@@ -90,12 +89,12 @@ p{
 
 #cookie{
   color: white;
-  font-size:10px;
+  font-size: 10px;
   background-color: black;
   width: 200px;
   margin-left: 50px;
   padding: 20px;
-  display:none;
+  display: none;
 }
 
 #chiude{
@@ -124,27 +123,33 @@ p{
 }
 
 .pittura{
-border: 2px solid red; border-radius: 15px;
+  border: 2px solid red;
+  border-radius: 15px;
 }
 
 .grafica{
-border: 2px solid blue; border-radius: 15px;
+  border: 2px solid blue;
+  border-radius: 15px;
 }
 
 .scenografia{
-border: 2px solid orange; border-radius: 15px;
+  border: 2px solid orange;
+  border-radius: 15px;
 }
 
 .impresa{
-border: 2px solid yellow; border-radius: 15px;
+  border: 2px solid yellow;
+  border-radius: 15px;
 }
 
 .tecnologie{
-border: 2px solid magenta; border-radius: 15px;
+  border: 2px solid magenta;
+  border-radius: 15px;
 }
 
 .comunicazione{
-border: 2px solid #A76CFB; border-radius: 15px; 
+  border: 2px solid #A76CFB;
+  border-radius: 15px; 
 }
 
 footer{
