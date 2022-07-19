@@ -6,8 +6,9 @@
   margin: 0px;
   background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/24/51/OwQlrL.jpg");
   background-attachment: fixed;
-  
-  position: fixed;
+  background-repeat: no-repeat;
+  backgroun: cover;
+  height: auto
 }
 
 #bandiere{
